@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -86,7 +87,6 @@ main .hero {
     width: 100%;
     height: 100%;
     z-index: -2;
-    top: 150px;
 }
 
 .hero-bg img {
@@ -104,4 +104,44 @@ main .hero {
     color: #ffffff;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+}
+
+section {
+    max-width: 1350px;
+    width: 80%;
+    margin: 80px auto;
+}
+
+section h1 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+section p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.abt-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abt-wrapper .abt-content {
+    width: 40%;
+}
+
+.abt-wrapper .abt-image {
+    max-width: 350px;
+    height: auto;
+}
+
+.abt-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
